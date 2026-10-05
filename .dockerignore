@@ -1,0 +1,13 @@
+.git
+.github
+.fleet
+.fleet-deploy.log
+*.log
+.terragrunt-cache
+.terraform
+.state
+*.tfstate
+*.tfstate.*
+*.tfplan
+out
+.env

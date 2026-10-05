@@ -1,3 +1,18 @@
-.env
 .fleet/
+*.log
 .fleet-deploy.log
+
+# --- Terragrunt / Terraform ---
+.terragrunt-cache/
+.terraform/
+# local backend state from root.hcl (switch to a remote backend for real infrastructure)
+.state/
+*.tfstate
+*.tfstate.*
+*.tfplan
+crash.log
+crash.*.log
+.terraformrc
+terraform.rc
+# local_file output written by `terragrunt run --all apply`
+out/
